@@ -12,7 +12,7 @@ function listarTimes() {
   times.forEach(t => console.log(t.nome));
 }
 
-// Times que começam com S (nome oficial)
+// Times que começam com S
 function timesComS() {
   const times = lerTimes();
   times
@@ -31,7 +31,7 @@ function estadiosOrdenados() {
     .forEach(e => console.log(e));
 }
 
-// Estádios de SP (nome, capacidade e cidade)
+// Estádios de SP
 function estadiosSP() {
   const times = lerTimes();
 
@@ -57,7 +57,7 @@ function timesRS() {
     .forEach(t => console.log(t.nome));
 }
 
-//  Nome do time + quantidade de títulos
+//  Nome do time com mais titulos
 function titulosPorTime() {
   const times = lerTimes();
 
@@ -71,7 +71,7 @@ function titulosPorTime() {
   });
 }
 
-// Times com estádio > 50.000 capacidade
+// Times com estádio 50.000 de capacidade
 function grandesEstadios() {
   const times = lerTimes();
 
